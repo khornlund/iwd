@@ -5,9 +5,9 @@ import pandas as pd
 
 
 def load_spell_data():
-    with open('spell_data.js') as dataFile:
+    with open("spell_data.js") as dataFile:
         data = dataFile.read()
-        obj = data[data.find('{') : data.rfind('}')+1]
+        obj = data[data.find("{") : data.rfind("}") + 1]
         jsonObj = json.loads(obj)
     return jsonObj
 
@@ -32,7 +32,18 @@ wizard_spells = select_wizard_spells(load_spell_data())
 df = (
     pd.DataFrame.from_records(list(wizard_spells.values()))
     .set_index("name")
-    .drop(columns=["page", "srd_name", "ritual", "casting_time", "duration", "components", "range", "concentration"])
+    .drop(
+        columns=[
+            "page",
+            "srd_name",
+            "ritual",
+            "casting_time",
+            "duration",
+            "components",
+            "range",
+            "concentration",
+        ]
+    )
 )
 
 weights = {
@@ -50,7 +61,9 @@ df["weight"][df["school"] == school] *= school_multiplier
 df["weight"] /= df["weight"].sum()
 
 nspells = roll(6) + roll(6) + roll(6)
-spells_selected = np.random.choice(df.index, size=nspells, p=df["weight"], replace=False)
+spells_selected = np.random.choice(
+    df.index, size=nspells, p=df["weight"], replace=False
+)
 df = df.loc[spells_selected, :].sort_values("level")
 print(df.head(18))
 
