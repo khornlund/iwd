@@ -253,12 +253,25 @@ I think crouching down to help an unconscious ally right in front of an enemy is
 - require going prone yourself (this costs no movement, but getting up costs half your maximum).
 - provoke an attack of opportunity against you from enemies within melee range.
 
-Optional Rules
---------------
-We'll decide at the start of the campaign to use these or not:
+Flanking
+--------
+Flanking gives a bonus to attack rolls based on how many allies are flanking the enemy.
 
-- Flanking. If we do, it will be a homebrew variant.
-- Disarming. Note that if you want this, enemies can do it to you.
++--------+--------+
+| Allies | Bonus  |
++========+========+
+|   1    |   +2   |
++--------+--------+
+|   2    |   +3   |
++--------+--------+
+| >=3    |   +4   |
++--------+--------+
+
+Note: you can't flank a creature two sizes larger than you. Eg. a medium creature cannot flank a huge creature.
+
+Disarming
+---------
+Not allowed because it will be sad when goblins throw your magic sword in the lake.
 
 Ability Checks
 ==============
