@@ -208,7 +208,7 @@ What I like about this is:
 
 Things we're going to change/ignore:
 
-- Because you will regularly have 3 days of downtime, we'll change the time it takes to make a check: you can make 2 checks per long rest. In general if the crafting document lists the time required for an activity to be 2 hours, instead it will take the same time as a crafting check.
+- Because you will regularly have 3 days of downtime, we'll change the time it takes to make a check: you can make 3 checks per long rest. In general if the crafting document lists the time required for an activity to be 2 hours, instead it will take the same time as a crafting check.
 - Named magical items are unique, ie. the party cannot craft two of the same thing. This is to help with balance. *Ring of Water Walking* it would be an example of a named magical item. Crafting 2x *Longsword, +1* would be fine.
 - Recharging a *Lesser Wand* will take up one of your crafting checks during a long rest. If you spend spell slots, I'm happy for you to spend them either before (if you have remaining slots to spend) or after the rest (starting your next quest without them).
 - Ignore *Gathering*, because I think this will be boring. Note this makes herbalism less useful.
