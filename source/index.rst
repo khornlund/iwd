@@ -185,6 +185,16 @@ Relevant abilities: Any tool or instrument.
 
 Notes: None.
 
+Copying a Spell into Your Spellbook
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.*
+
+Cost: 50gp per level of the spell.
+
+Relevant abilities: When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.
+
+Notes: You have time to copy two spells of first level, or one spell of any level during downtime.
+
 Crafting
 ~~~~~~~~
 Crafting guide `here <https://drive.google.com/file/d/11tzfsTfjCR0rwIwN3wuvQyuZpl5K-0xq/view?usp=sharing>`_. It will seem intimidating because it's a large document, but the rules are actually quite simple. We'll ignore parts of it, and make some changes.
