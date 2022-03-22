@@ -97,7 +97,7 @@ Miscellaneous
 
 Resting
 =======
-We'll use these `variant <https://homebrewery.naturalcrit.com/share/sA6RAsDvIO3_>`_ resting rules.
+We'll use the following variant resting rules.
 
 I don't expect that you'll be short on resources as a consequence of this very often. I do hope that it will give the following benefits:
 
@@ -105,28 +105,73 @@ I don't expect that you'll be short on resources as a consequence of this very o
 - I can do more interesting things with time.
 - Adventures to far away places will feel more dangerous.
 
+Summary
+-------
+- **Short rests** are unchanged and take 1 hour.
+- **Medium rests** replace what would normally be a long rest.
+    - Characters don't regain hit points at the end of a medium rest. Instead, a character can spend Hit Dice to heal just as with a short rest.
+    - Spellcasters regain only half their maximum spell slots of 5th level or lower.
+    - Characters regain all other abilities they would from a long rest.
+- **Long rests** require 3 days of downtime.
+
+Short Rest
+----------
+A short rest is a 1-hour period of downtime, during which:
+
+- A character can perform light activity.
+- A character cannot perform strenuous activity.
+
+**Benefits of a Short Rest.** At the end of a short rest, you can spend Hit Dice. For each Hit Die you spend, roll the die and add your character's Constitution modifier. Your character regains hit points equal to the total (minimum of 0). You can decide to spend an additional Hit Die after each roll, up to your character’s maximum number of Hit Dice. Class features and resources you regain after finishing a short rest are benefits of a short rest.
+
+Medium Rest
+-----------
+A medium rest is an 8-hour period of downtime, during which:
+
+- A character must sleep for at least 6 hours.
+- A character cannot perform more than 2 hours of light activity.
+- A character cannot perform more than 1 hour of strenuous activity.
+
+**Limitations.** A character cannot benefit from a medium rest if:
+
+- They are exposed to extreme elements, such as cold.
+- They have already benefited from a medium rest in the preceding 24-hour period.
+- They have 0 hit points at the start of the medium rest.
+
+**Benefits of a Medium Rest.** At the end of a medium rest:
+
+- A character may spend Hit Dice to regain hit points like a short rest.
+- A character regains Hit Dice equal to half of the character's total number of them, or one quarter if they slept in medium or heavy armor (minimum of one die).
+- Class features and resources you regain after finishing a long rest are benefits of a medium rest.
+- Spellcasters regain only half their maximum spell slots (rounded down) of 5th level or lower.
+
+Long Rest
+---------
+A long rest is a 3-day period of downtime typically spent in a safe area like a town or village, during which:
+
+- A character must sleep for at least 6 hours per day.
+- A character may only perform downtime activities.
+
+**Benefits of a Long Rest.** At the end of a long rest, a character regains all lost hit points. The character also regains spent Hit Dice, up to half of the character's total Hit Dice (minimum of one die). Class features and resources you regain after finishing a long rest are benefits of a long rest.
+
 Downtime
 ========
 You will have three days of downtime every time you long rest, so we need some activities! I expect that we can do most of this stuff outside of sessions on discord. I'd also like to try out a new system for crafting.
 
-Activities
-----------
-
 Crime
-~~~~~
+-----
 Cost: 25gp
 
-Relevant abilities: Dexterity (Stealth), Dexterity using thieves’ tools, and the player’s choice of Intelligence (Investigation), Wisdom (Perception), or Charisma (Deception).
+Relevant abilities: Dexterity (Stealth), Dexterity using thieves' tools, and the player's choice of Intelligence (Investigation), Wisdom (Perception), or Charisma (Deception).
 
 Notes: You may be caught and jailed for some number of weeks. You can choose the level of risk/reward:
 
-- Rob a poor unnamed NPC who didn’t have much to start with.
+- Rob a poor unnamed NPC who didn't have much to start with.
 - Rob a semi well to do NPC that is set back by this.
 - Rob a merchant in town.
 - Rob the leader of the town.
 
 Gambling
-~~~~~~~~
+--------
 *Games of chance are a way to make a fortune — and perhaps a better way to lose one.*
 
 Cost: minimum 10gp
@@ -136,7 +181,7 @@ Relevant abilities: Wisdom (Insight), Charisma (Deception), and Charisma (Intimi
 Notes: The difficulty will increase the more you bet.
 
 Pit Fighting
-~~~~~~~~~~~~
+------------
 *Pit fighting includes boxing, wrestling, and other nonlethal forms of combat in an organized setting with predetermined matches.*
 
 Cost: None
@@ -146,7 +191,7 @@ Relevant abilities: Strength (Athletics), Dexterity (Acrobatics), and a special 
 Notes: None.
 
 Religious Services
-~~~~~~~~~~~~~~~~~~
+------------------
 *Characters with a religious bent might want to spend downtime in service to a temple, either by attending rites or by proselytizing in the community.*
 
 Cost: None
@@ -156,7 +201,7 @@ Relevant abilities: Religion using either Intelligence, Wisdom, or Charisma.
 Notes: None.
 
 Research
-~~~~~~~~
+--------
 *Delve into lore concerning a monster, a location, a magic item, or some other particular topic.*
 
 Cost: >50gp
@@ -166,7 +211,7 @@ Relevant abilities: Intelligence check with a +1 bonus per 50 gp spent beyond th
 Notes: Must be performed in an appropriate location.
 
 Training
-~~~~~~~~
+--------
 *Given enough free time and the services of an instructor, a character can learn a language or pick up proficiency with a tool.*
 
 Cost: 25gp per rest
@@ -176,7 +221,7 @@ Relevant abilities: None
 Notes: Receiving training in a language or tool typically takes 10 rests, but this time is reduced by a number of rests equal to the character’s Intelligence modifier.
 
 Work
-~~~~
+----
 *When all else fails, an adventurer can turn to an honest trade to earn a living.*
 
 Cost: None
@@ -186,7 +231,7 @@ Relevant abilities: Any tool or instrument.
 Notes: None.
 
 Copying a Spell into Your Spellbook
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 *When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.*
 
 Cost: 50gp per level of the spell.
@@ -196,7 +241,7 @@ Relevant abilities: When a spell is copied from a spell scroll, the copier must 
 Notes: You have time to copy two spells of first level, or one spell of any level during downtime.
 
 Crafting
-~~~~~~~~
+--------
 Crafting guide `here <https://drive.google.com/file/d/11tzfsTfjCR0rwIwN3wuvQyuZpl5K-0xq/view?usp=sharing>`_. It will seem intimidating because it's a large document, but the rules are actually quite simple. We'll ignore parts of it, and make some changes.
 
 What I like about this is:
