@@ -238,7 +238,7 @@ Cost: 50gp per level of the spell.
 
 Relevant abilities: When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.
 
-Notes: You have time to copy two spells of first level, or one spell of any level during downtime.
+Notes: For each level of the spell, the process takes 2 hours (one crafting check).
 
 Crafting
 --------
