@@ -163,12 +163,12 @@ Cost: 25gp
 
 Relevant abilities: Dexterity (Stealth), Dexterity using thieves' tools, and the player's choice of Intelligence (Investigation), Wisdom (Perception), or Charisma (Deception).
 
-Notes: You may be caught and jailed for some number of weeks. You can choose the level of risk/reward:
+Notes: You can choose the level of risk/reward. You may be caught and asked to pay a fine (equal to reward) to avoid being jailed.
 
-- Rob a poor unnamed NPC who didn't have much to start with.
-- Rob a semi well to do NPC that is set back by this.
-- Rob a merchant in town.
-- Rob the leader of the town.
+- (50gp) Rob a poor unnamed NPC who didn't have much to start with.
+- (100gp) Rob a semi well to do NPC that is set back by this.
+- (200gp) Rob a merchant in town.
+- (500gp) Rob the leader of the town.
 
 Gambling
 --------
